@@ -3,7 +3,7 @@ conn = psycopg2.connect(
    host="localhost",
    database="dict",
    user="postgres",
-   password="Ghznmqm7"
+   password="XXXXX"
 )
 
 def read_dict(conn):
@@ -46,3 +46,6 @@ while True: ## REPL - Read Execute Program Loop
     elif cmd == "quit":
         save_dict(conn)
         exit()
+
+
+##### ADDED FOR COMMIT number two"
