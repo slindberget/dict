@@ -32,6 +32,9 @@ def save_dict(conn):
     cur.close()
     conn.close()
 
+def insert_word(conn, word, translation):
+    print(word, translation)
+
 while True: ## REPL - Read Execute Program Loop
     cmd = input("HELLO\nUse the following list of commands\nAdd = Add word and translation\nDelete = Input id to delete row\nQuit = Exit program\nCommand: ").lower()
     if cmd == "list":
